@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tech-bot"
+version = "0.1.0"
+description = ""
+authors = ["jainal09 <jainal09gosalia@gmail.com>"]
+readme = "README.md"
+# packages = [{ include = "src/tech-bot" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.24.1"
+pyyaml = "^6.0.1"
+streamlit = "^1.35.0"
+tiktoken = "^0.7.0"
+openai = "^1.35.3"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
