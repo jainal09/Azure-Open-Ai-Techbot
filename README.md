@@ -2,7 +2,12 @@
 
 This is a simple bot that uses the GPT-4o API to generate text based on the user's input. The bot is built using the openai GPT-4o API and streamlit.
 
-## Getting Started
+## Built With 🛠️
+- [GPT-4o](https://openai.com/index/hello-gpt-4o)
+- [Streamlit](https://streamlit.io/)
+- [Azure Open AI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+
+## Getting Started 🚀
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -26,7 +31,7 @@ python -m streamlit run src/tech_bot/main.py
 ```
 This will start a server at `http://localhost:8501` where you can interact with the bot.
 
-## Features
+## Features 📋
 1. Real time chat GPT like interface with the bot 💬
 2. Streaming response from the GPT-4o API to the user 🌐
 3. Safeguards for inappropriate content 🚫
@@ -36,10 +41,10 @@ This will start a server at `http://localhost:8501` where you can interact with 
 
 
 
-## Contributing
+## Contributing 🖇️
 
 Please read [CONTRIBUTING.md](https://) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## License
+## License 📄
 
 This project is licensed under the [LICENSE.md](LICENSE.md) - see the file for details
