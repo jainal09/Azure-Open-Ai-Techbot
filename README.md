@@ -14,7 +14,6 @@
 
 https://github.com/jainal09/Azure-Open-Ai-Techbot/assets/34179361/d42bd484-48e0-41bb-8eec-3629dddf595c
 
-
 ## Built With 🛠️
 - [GPT-4o](https://openai.com/index/hello-gpt-4o)
 - [Streamlit](https://streamlit.io/)
@@ -67,6 +66,11 @@ This will start a server at `http://localhost:8501` where you can interact with 
 5. Real time token calculation for displaying the token usage to the user 📊
 6. Feature to pass the context and history to the GPT-4o API for better responses 📚 
 
+
+## Demo Video 📺
+Click on the image below to watch the demo video on YouTube:
+
+[![Youtube Video](https://img.youtube.com/vi/BB6yraGmftk/0.jpg)](https://www.youtube.com/watch?v=BB6yraGmftk)
 
 
 ## Contributing 🖇️
