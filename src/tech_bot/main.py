@@ -1,18 +1,18 @@
 import asyncio
 import json
-from openai import AsyncAzureOpenAI
+
 import openai
 import streamlit as st
+from openai import AsyncAzureOpenAI
+
 from src.tech_bot.configs import (
-    OAI_MODEL,
-    AZURE_DEPLOYMENT,
     API_KEY,
-    AZURE_ENDPOINT,
     API_VERSION,
+    AZURE_DEPLOYMENT,
+    AZURE_ENDPOINT,
+    OAI_MODEL,
 )
 from src.tech_bot.utils import num_tokens_from_messages
-from dotenv import load_dotenv
-
 
 st.title(f"Azure Open AI: GPT 4o Tech Bot 🤖")
 
@@ -25,7 +25,7 @@ async def get_response():
             stream=True,
             temperature=0.7,
         )  # type: ignore
-    except openai.BadRequestError as e:
+    except openai.BadRequestError:
         st.error(
             "The response was filtered due to the prompt triggering Azure OpenAI's \
                   content management policy. Please modify your prompt and retry."
@@ -106,6 +106,8 @@ if prompt := st.chat_input("What is up?"):
 
 # Use st.markdown with inline HTML styling to change text color
 st.markdown(
-    f"<span style='color:red'>Total tokens used till now in conversation (your input + model's output): {num_tokens_from_messages(st.session_state.messages, OAI_MODEL)}</span>",
+    f"<span style='color:red'>Total tokens used till now in conversation (your input + \
+    model's output): {num_tokens_from_messages(st.session_state.messages, OAI_MODEL)}\
+        </span>",
     unsafe_allow_html=True,
 )

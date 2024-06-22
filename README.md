@@ -38,6 +38,21 @@ Assuming you have python and poetry installed, you can install the dependencies 
 poetry install
 ```
 
+### Setting up the environment
+#### Azure Open AI
+1. Create an account on [Azure Open AI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+2. Create a new project and grab the API key
+   
+#### Environment variables
+1. Create a `.env` file in the root directory and add the following line:
+```bash
+API_KEY=YOUR_API_KEY
+AZURE_ENDPOINT=YOUR_AZURE_ENDPOINT
+API_VERSION=2024-02-01
+AZURE_DEPLOYMENT=YOUR_AZURE_DEPLOYMENT
+```
+
+
 ### Running the bot
 ```bash
 python -m streamlit run src/tech_bot/main.py
