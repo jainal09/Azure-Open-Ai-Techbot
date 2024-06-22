@@ -1,5 +1,18 @@
 # GPT 4o Tech Bot 🤖
-This is a tech bot that efficiently answers questions related to technology. It is programmed to specialize in answering technological questions, simulating specific use cases of a particular topic. The bot utilizes the GPT-4o API and streamlit for its functionality.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/jainal09/Azure-Open-Ai-Techbot/assets/34179361/0b2f194e-f0e8-4c35-bb60-40859a73f3ad" alt="tech-bot" width="600">
+    </td>
+    <td>
+      This is a tech bot that efficiently answers questions related to technology. It is programmed to specialize in answering technological questions, simulating specific use cases of a particular topic. The bot utilizes the GPT-4o API and streamlit for its functionality.
+    </td>
+  </tr>
+</table>
+
+
+https://github.com/jainal09/Azure-Open-Ai-Techbot/assets/34179361/d42bd484-48e0-41bb-8eec-3629dddf595c
 
 
 ## Built With 🛠️
