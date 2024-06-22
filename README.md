@@ -1,6 +1,6 @@
 # GPT 4o Tech Bot 🤖
+This is a tech bot that efficiently answers questions related to technology. It is programmed to specialize in answering technological questions, simulating specific use cases of a particular topic. The bot utilizes the GPT-4o API and streamlit for its functionality.
 
-This is a simple bot that uses the GPT-4o API to generate text based on the user's input. The bot is built using the openai GPT-4o API and streamlit.
 
 ## Built With 🛠️
 - [GPT-4o](https://openai.com/index/hello-gpt-4o)
