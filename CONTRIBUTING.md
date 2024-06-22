@@ -1,6 +1,6 @@
-# Contributing to [Project Name]
+# Contributing to Azure Open AI GPT-4o Tech Bot 🤖
 
-Thank you for your interest in contributing to [Project Name]! We welcome contributions from everyone. Here are some guidelines to help you get started.
+Thank you for your interest in contributing to Azure Open AI GPT-4o Tech Bot 🤖 ! We welcome contributions from everyone. Here are some guidelines to help you get started.
 
 ## How to Contribute
 
@@ -9,7 +9,7 @@ Thank you for your interest in contributing to [Project Name]! We welcome contri
 2. **Clone the repository** - Clone the forked repository to your local machine to start making your changes.
 
     ```bash
-    git clone https://github.com/your-username/project-name.git
+    git clone https://github.com/jainal09/Azure-Open-Ai-Techbot.git
     ```
 
 3. **Create a branch** - Create a new branch for your changes. This helps keep the main branch clean and your changes organized.
@@ -43,4 +43,4 @@ If you find any bugs or have a feature request, please create an issue on GitHub
 
 Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms.
 
-Thank you for contributing to [Project Name]!
+Thank you for contributing to Azure Open AI GPT-4o Tech Bot 🤖!
